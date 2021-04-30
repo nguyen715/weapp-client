@@ -1,33 +1,33 @@
-.CreateArticleForm {
+.Profile {
   padding: 30px;
 }
 
-.CreateArticleForm .article-form-item {
+.Profile .profile-form-item {
   border-bottom: 1px solid #cccccc;
   padding: 10px 0;
 }
 
-.CreateArticleForm label {
+.Profile label {
   color: #cccccc;
   font-style: italic;
 }
 
-.CreateArticleForm .label-text {
+.Profile .label-text {
   min-width: 80px;
   display: inline-block;
   vertical-align: middle;
 }
 
-.CreateArticleForm img {
+.Profile img {
   max-width: 100px;
   vertical-align: middle;
 }
 
-.CreateArticleForm input {
+.Profile input {
   border: none;
 }
 
-.CreateArticleForm .submit-btn {
+.Profile .submit-btn {
   width: 100%;
   background-color: #1c47e8;
   color: white;
