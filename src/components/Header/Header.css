@@ -1,0 +1,42 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 2px #d9d9d9;
+  padding: 15px 30px;
+  color: #0044b3;
+  position: relative;
+}
+
+.Header a, .fa {
+  cursor: pointer;
+}
+
+.Header a, a:visited {
+  color: #0056e3;
+}
+
+.Header h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.Header .header-icons {
+  display: flex;
+}
+
+.Header .header-icons .profile, .menu {
+  margin: 5px 0 0 40px;
+}
+
+.Header .header-icons .profile {
+  font-size: 20px;
+  color: black;
+}
+
+.Header .header-icons .menu {
+  padding: 0 10px;
+  color: #adcef0;
+  font-size: 25px;
+  font-weight: lighter;
+}
