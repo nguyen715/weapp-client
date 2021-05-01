@@ -1,5 +1,7 @@
 .CreateArticleForm {
   padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .CreateArticleForm .article-form-item {
@@ -18,13 +20,14 @@
   vertical-align: middle;
 }
 
-.CreateArticleForm img {
-  max-width: 100px;
+.CreateArticleForm .fa {
+  font-size: 48px;
   vertical-align: middle;
 }
 
 .CreateArticleForm input {
   border: none;
+  width: 100%;
 }
 
 .CreateArticleForm .submit-btn {

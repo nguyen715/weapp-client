@@ -5,7 +5,7 @@ import Menu from '../Menu/Menu';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  
   function toggleMenu() {
     setMenuOpen(menuOpen ? false : true);
     return;
@@ -26,7 +26,10 @@ export default function Header() {
         </Link>
         <i className="fa fa-ellipsis-v menu" onClick={toggleMenu}></i>
       </div>
-      {menuOpen && <Menu toggleMenu={toggleMenu}/>}
+      <Menu toggleMenu={toggleMenu} isOpen={menuOpen} />
+      
+      
+            {/* {menuOpen && <Menu toggleMenu={toggleMenu}/>} */}
     </div>
   )
 }

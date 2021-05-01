@@ -1,5 +1,7 @@
 .Profile {
   padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .Profile .profile-form-item {

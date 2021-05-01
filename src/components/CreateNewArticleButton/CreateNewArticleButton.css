@@ -1,0 +1,16 @@
+.CreateNewArticleButton {
+  position: relative;
+}
+
+.CreateNewArticleButton .fa-circle {
+  font-size: 60px;
+  color: blue;
+}
+
+.CreateNewArticleButton .fa-plus {
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 31%;
+}

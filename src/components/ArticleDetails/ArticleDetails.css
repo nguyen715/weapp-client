@@ -1,0 +1,27 @@
+.ArticleDetails .article-details-container {
+  width: 75%;
+  margin: 20px auto 40px auto;
+  padding: 10px 10px 30px 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgb(168, 168, 168);
+  text-align: center;
+  font-size: 14px;
+  color: rgb(75, 75, 75);
+}
+
+.ArticleDetails .article-image {
+  display: block;
+  width: 100%;
+}
+
+.ArticleDetails h2 {
+  font-size:18px;
+  margin-bottom: 7px;
+  color: black;
+}
+
+.ArticleDetails .article-author-email {
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}

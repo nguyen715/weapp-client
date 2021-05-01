@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   box-shadow: 0 3px 2px #d9d9d9;
-  padding: 15px 30px;
+  padding: 15px 20px 15px 30px;
   color: #0044b3;
-  position: relative;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
 }
 
 .Header a, .fa {
@@ -26,7 +29,7 @@
 }
 
 .Header .header-icons .profile, .menu {
-  margin: 5px 0 0 40px;
+  margin: 5px 0 0 25px;
 }
 
 .Header .header-icons .profile {

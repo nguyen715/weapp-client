@@ -1,0 +1,12 @@
+.ArticlesList ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ArticlesList .CreateNewArticleButton {
+  position: fixed;
+  right: 3%;
+  bottom: 30%;
+  z-index: 1;
+}

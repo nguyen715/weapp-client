@@ -4,6 +4,8 @@ import Context from './context/context';
 import Header from './components/Header/Header';
 import ArticlesList from './components/ArticlesList/ArticlesList';
 import Profile from './components/Profile/Profile';
+import CreateArticleForm from './components/CreateArticleForm/CreateArticleForm';
+import ArticleDetails from './components/ArticleDetails/ArticleDetails';
 import './App.css';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
       <Context.Provider value={settings}>
         <Header />
         <Route path="/profile" component={Profile} />
+        <Route path="/create-article" component={CreateArticleForm} />
+        <Route path="/article-details/:id" component={ArticleDetails} />
         <Route exact path="/" component={ArticlesList} />
       </Context.Provider>
     </div>
