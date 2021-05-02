@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 import './Menu.css';
 
 export default function Menu(props) {
-  let menuClassName;
-  menuClassName = props.isOpen ? "Menu open" : "Menu closed";
+  let menuClassName = props.isOpen ? "Menu open" : "Menu closed";
 
   return (
     <div className={menuClassName}>

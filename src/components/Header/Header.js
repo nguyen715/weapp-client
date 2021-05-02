@@ -27,9 +27,6 @@ export default function Header() {
         <i className="fa fa-ellipsis-v menu" onClick={toggleMenu}></i>
       </div>
       <Menu toggleMenu={toggleMenu} isOpen={menuOpen} />
-      
-      
-            {/* {menuOpen && <Menu toggleMenu={toggleMenu}/>} */}
     </div>
   )
 }
