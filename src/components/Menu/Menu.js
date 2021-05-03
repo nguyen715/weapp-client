@@ -7,16 +7,18 @@ export default function Menu(props) {
   return (
     <div className={menuClassName}>
       <div className="menu-header"><h2>Menu</h2></div>
-        <Link to="/">
-          <div className="menu-item" onClick={props.toggleMenu}>
-              <i className="fa fa-home"></i>
-              <span className="menu-item-label">News</span>
-          </div>
-        </Link>
-      <div className="menu-item">
-        <i className="fa fa-list-ul"></i>
-        <span className="menu-item-label">Users</span>
-      </div>
+      <Link to="/">
+        <div className="menu-item" onClick={props.toggleMenu}>
+            <i className="fa fa-home"></i>
+            <span className="menu-item-label">News</span>
+        </div>
+      </Link>
+      <Link to="/users-list">
+        <div className="menu-item" onClick={props.toggleMenu}>
+          <i className="fa fa-list-ul"></i>
+          <span className="menu-item-label">Users</span>
+        </div>
+      </Link>
       <Link to="/profile">
         <div className="menu-item" onClick={props.toggleMenu}>
           <i className="fa fa-user-circle profile"></i>

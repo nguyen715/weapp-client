@@ -1,0 +1,39 @@
+.UsersList {
+  padding: 20px 0 20px 20px;
+}
+
+.User {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.User .image-container {
+  margin-right: 20px;
+}
+
+.User .image-cropper {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.User .user-profile-pic {
+  height: 140%;
+  width: 100%;
+}
+
+.User .user-data-container {
+  width: 100%;
+  border-bottom: solid 1px rgb(207, 207, 207);
+}
+
+.User .user-name {
+  margin-bottom: 5px;
+}
+
+.User .user-email {
+  margin-bottom: 15px;
+  color: grey;
+  font-size: 14px;
+}

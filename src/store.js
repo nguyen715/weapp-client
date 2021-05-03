@@ -241,6 +241,149 @@ const store = {
           "author_registration_date": "14 Jun 2006 10:56"
       }
   ],
+
+    "users_data": [
+        {
+            "id": 55,
+            "name": "Rebecca Predovic",
+            "email": "sage.hahn@example.org",
+            "photo": "https://voxiot.com/images/users/25.jpg",
+            "registration_date": 838769058
+        },
+        {
+            "id": 62,
+            "name": "Ursula Bayer",
+            "email": "roscoe36@example.org",
+            "photo": "https://voxiot.com/images/users/1.jpg",
+            "registration_date": 840669070
+        },
+        {
+            "id": 3,
+            "name": "Candido Waelchi",
+            "email": "newton01@example.net",
+            "photo": "https://voxiot.com/images/users/12.jpg",
+            "registration_date": 886943972
+        },
+        {
+            "id": 85,
+            "name": "Mr. Johan Howe",
+            "email": "ritchie.geo@example.org",
+            "photo": "https://voxiot.com/images/users/34.jpg",
+            "registration_date": 248049043
+        },
+        {
+            "id": 12,
+            "name": "Miss Cristal Corkery",
+            "email": "mable90@example.net",
+            "photo": "https://voxiot.com/images/users/62.jpg",
+            "registration_date": 1361470014
+        },
+        {
+            "id": 14,
+            "name": "Dayton Littel",
+            "email": "yhowe@example.net",
+            "photo": "https://voxiot.com/images/users/20.jpg",
+            "registration_date": 1231188914
+        },
+        {
+            "id": 83,
+            "name": "Arlene Jerde",
+            "email": "xullrich@example.org",
+            "photo": "https://voxiot.com/images/users/78.jpg",
+            "registration_date": 447188438
+        },
+        {
+            "id": 54,
+            "name": "Mrs. Madisyn Wunsch",
+            "email": "jarrell98@example.net",
+            "photo": "https://voxiot.com/images/users/10.jpg",
+            "registration_date": 1150279011
+        },
+        {
+            "id": 9,
+            "name": "Jany Orn",
+            "email": "hettinger.margarita@example.net",
+            "photo": "https://voxiot.com/images/users/64.jpg",
+            "registration_date": 2515916
+        },
+        {
+            "id": 78,
+            "name": "Harmon Paucek",
+            "email": "considine.kenya@example.net",
+            "photo": "https://voxiot.com/images/users/61.jpg",
+            "registration_date": 525111936
+        },
+        {
+            "id": 53,
+            "name": "Ophelia Miller",
+            "email": "zdooley@example.com",
+            "photo": "https://voxiot.com/images/users/53.jpg",
+            "registration_date": 156651943
+        },
+        {
+            "id": 59,
+            "name": "Prof. Albin Treutel",
+            "email": "oceane62@example.net",
+            "photo": "https://voxiot.com/images/users/23.jpg",
+            "registration_date": 1235266372
+        },
+        {
+            "id": 5,
+            "name": "Libby Feest DVM",
+            "email": "wilburn98@example.com",
+            "photo": "https://voxiot.com/images/users/82.jpg",
+            "registration_date": 438773352
+        },
+        {
+            "id": 58,
+            "name": "Cynthia Rath",
+            "email": "ahegmann@example.com",
+            "photo": "https://voxiot.com/images/users/42.jpg",
+            "registration_date": 1561052599
+        },
+        {
+            "id": 66,
+            "name": "Rosalee Nienow",
+            "email": "dickinson.vicente@example.net",
+            "photo": "https://voxiot.com/images/users/45.jpg",
+            "registration_date": 1109613024
+        },
+        {
+            "id": 35,
+            "name": "Mr. Rodger Larson",
+            "email": "faustino55@example.net",
+            "photo": "https://voxiot.com/images/users/50.jpg",
+            "registration_date": 1483571463
+        },
+        {
+            "id": 27,
+            "name": "Prof. Ed Barrows",
+            "email": "wmckenzie@example.com",
+            "photo": "https://voxiot.com/images/users/24.jpg",
+            "registration_date": 1304561571
+        },
+        {
+            "id": 11,
+            "name": "Ms. Rozella Hartmann",
+            "email": "dcorwin@example.org",
+            "photo": "https://voxiot.com/images/users/29.jpg",
+            "registration_date": 118791359
+        },
+        {
+            "id": 37,
+            "name": "Coralie McCullough",
+            "email": "hoeger.kenyon@example.net",
+            "photo": "https://voxiot.com/images/users/85.jpg",
+            "registration_date": 583249730
+        },
+        {
+            "id": 31,
+            "name": "Brenden Feil V",
+            "email": "preston.vandervort@example.org",
+            "photo": "https://voxiot.com/images/users/52.jpg",
+            "registration_date": 418864236
+        }
+    ],
   "page": 1,
   "pages": 6
 }
