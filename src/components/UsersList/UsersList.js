@@ -5,7 +5,6 @@ export default function UsersList() {
   const users = store.users_data;
 
   function User(props) {
-    console.log(props.userName);
     return (
       <div className="User">
         <div className="image-container">
