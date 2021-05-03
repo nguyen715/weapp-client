@@ -27,11 +27,13 @@ function App() {
     <div className="App">
       <Context.Provider value={settings}>
         <Header />
-        <Route path="/profile" component={Profile} />
-        <Route path="/create-article" component={CreateArticleForm} />
-        <Route path="/users-list" component={UsersList} />
-        <Route path="/article-details/:id" component={ArticleDetails} />
-        <Route exact path="/" component={ArticlesList} />
+        <div className="main">
+          <Route path="/profile" component={Profile} />
+          <Route path="/create-article" component={CreateArticleForm} />
+          <Route path="/users-list" component={UsersList} />
+          <Route path="/article-details/:id" component={ArticleDetails} />
+          <Route exact path="/" component={ArticlesList} />
+        </div>
       </Context.Provider>
     </div>
   );
