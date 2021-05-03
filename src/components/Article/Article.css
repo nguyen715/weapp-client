@@ -61,7 +61,7 @@
 
 @media (min-width: 600px) {
   .article-data-container {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
   }
 }
