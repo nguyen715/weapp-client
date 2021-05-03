@@ -1,9 +1,3 @@
-@media (min-width: 600px) {
-  .App .main {
-    padding-top: 10px;
-  }
-}
-
 .App ul {
   list-style-type: none;
   margin: 0;
